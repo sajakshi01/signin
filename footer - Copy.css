@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(../BASICS/images/raje.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: end;
+    height: 100vh;
+    display: flex;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+footer{
+    display:flex;
+    justify-content: space-between;
+    background-color: rgba(181, 175, 175, 0.749);
+    color: aliceblue;
+    padding: 20px 20px 20px 0px;
+}
+footer #left{
+    width:70%;
+    display: flex;
+}
+footer #right{
+ width:30%;
+ display: flex;
+ border-left: 2px dotted grey;
+}
+footer ul{
+    list-style-type: none;
+}
+footer a{
+    text-decoration: none;
+    color:white;
+
+}
+footer h3{
+    color: rgba(65, 60, 60, 0.859);
+}
